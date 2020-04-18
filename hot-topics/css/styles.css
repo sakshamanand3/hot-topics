@@ -10,6 +10,11 @@
 
 }
 
+a {
+
+	color: grey;
+}
+
 header {
 
 	background-image: url(../img/mast.png);
@@ -129,7 +134,7 @@ footer i {
 }
 
 
-figcaption {
+#fig-c {
 
 	text-align: center;
 	font-size: 0.75rem;
@@ -140,6 +145,34 @@ figcaption {
 
 	font-size: 0.75rem;
 	padding-bottom: 3%;
+	font-family: Poppins;
+
+}
+
+.row {
+
+	display: grid;
+	grid-template-columns: auto;
+    padding: 10px;
+}
+
+.port {
+
+	width: 100%;
+	padding: 20px;
+}
+
+.foo {
+
+	font-size: 16px;
+	color: teal;
+	font-family: Poppins;
+}
+
+h4 {
+
+	font-size: 16px;
+	color: teal;
 	font-family: Poppins;
 
 }
@@ -246,6 +279,12 @@ h2 {
 
 }
 
+h4 {
+
+	text-align: center;
+	font-family: 
+}
+
 
 
 footer {
@@ -268,7 +307,7 @@ footer i {
 
 }
 
-figcaption {
+#fig-c {
 
 	position: relative;
 	top: 100%;
@@ -279,15 +318,25 @@ figcaption {
 
 }
 
+.row {
 
+	display: grid;
+	grid-template-columns: auto auto;
+    padding: 20px;
+}
+
+
+.port {
+
+	width: 100%;
+
+}
     
 
 
+.fig-p {
 
-
-
-
-
+	display: block; !important
 }
 
 
@@ -413,7 +462,7 @@ footer i {
 
 }
 
-figcaption {
+#fig-c {
 
 	position: relative;
 	top: 320px;
@@ -424,6 +473,19 @@ figcaption {
 
 }
 
+
+.row {
+
+	display: grid;
+	grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.port {
+
+	width: 100%;
+	padding: 20px;
+}
 
 
 }
